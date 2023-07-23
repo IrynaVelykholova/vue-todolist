@@ -1,0 +1,22 @@
+header {
+    height: 400px;
+    background-image: url(pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg);
+    
+}
+
+.main {
+    position: relative;
+}
+
+.h1-title {
+    margin-top: -250px;
+    color: wheat;
+}
+
+.input-form {
+    width: 500px;
+}
+
+.card {
+    width: 320px;
+}
