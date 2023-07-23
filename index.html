@@ -41,7 +41,7 @@
                         <li class="list-group-item d-flex" 
                             v-for="todoItem in todoList"
                             :class="(todoItem.done === true ? 'text-decoration-line-through' : '')"
-                            @click="barra(todoItem)">
+                            @click="lineThrough(todoItem)">
                             <span class="flex-grow-1">
                                 {{ todoItem.id }}. {{ todoItem.text }} 
                             </span>

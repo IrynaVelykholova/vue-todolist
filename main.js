@@ -44,7 +44,7 @@ Vue.createApp({
             //indico cosa cancellare   indice   elementi da cancellare
             this.todoList.splice(indexToDelete, 1)
         },
-        barra(todoItem) {
+        lineThrough(todoItem) {
             if (todoItem.done === true) {
                 todoItem.done = false;
             } else {
